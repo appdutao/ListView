@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 自定义常量 -->
+    <dimen name="top_bar_height">45dp</dimen>
+    <dimen name="bottom_bar_height">60dp</dimen>
+    <dimen name="top_goback_width">60dp</dimen>
+    <dimen name="top_gonext_width">60dp</dimen>
+
+</resources>

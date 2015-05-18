@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/relativeL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" >
+
+        <TextView
+            android:id="@+id/tv_item_tittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_item_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_item_tittle" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_item"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="很好很强大"
+        android:src="@drawable/point_select" />
+
+</LinearLayout>

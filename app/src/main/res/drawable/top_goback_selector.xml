@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/top_goback_unselected" android:state_pressed="false"/>
+    <item android:drawable="@drawable/top_goback_selected" android:state_pressed="true"/>
+    <item android:drawable="@drawable/top_goback_selected" android:state_focused="true"/>
+    <item android:drawable="@drawable/top_goback_unselected"/>
+
+</selector>

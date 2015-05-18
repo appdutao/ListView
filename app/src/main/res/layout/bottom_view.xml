@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_bar_height"
+    android:background="@drawable/tab_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/message_layout"
+        style="@style/main_bottom_bar_linear" >
+
+        <ImageView
+            android:id="@+id/message_image"
+            style="@style/main_bottom_bar_image" />
+
+        <TextView
+            android:id="@+id/message_text"
+            style="@style/main_bottom_bar_text"
+            android:text="消息" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contacts_layout"
+        style="@style/main_bottom_bar_linear" >
+
+        <ImageView
+            android:id="@+id/contacts_image"
+            style="@style/main_bottom_bar_image" />
+
+        <TextView
+            android:id="@+id/contacts_text"
+            style="@style/main_bottom_bar_text"
+            android:text="联系人" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/news_layout"
+        style="@style/main_bottom_bar_linear" >
+
+        <ImageView
+            android:id="@+id/news_image"
+            style="@style/main_bottom_bar_image" />
+
+        <TextView
+            android:id="@+id/news_text"
+            style="@style/main_bottom_bar_text"
+            android:text="动态" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setting_layout"
+        style="@style/main_bottom_bar_linear" >
+
+        <ImageView
+            android:id="@+id/setting_image"
+            style="@style/main_bottom_bar_image" />
+
+        <TextView
+            android:id="@+id/setting_text"
+            style="@style/main_bottom_bar_text"
+            android:text="设置" />
+    </LinearLayout>
+
+</LinearLayout>
